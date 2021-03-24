@@ -10,50 +10,11 @@ const AboutSkill = () => {
               <div className="inner-column">
                 {/* Sec Title */}
                 <div className="sec-title">
-                  <div className="title">Our Status valu</div>
-                  <h2>Differentiate your classroom <br /> What makes us special?</h2>
-                  <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</div>
-                </div>
-                {/* Skills */}
-                <div className="skills">
-                  {/* Skill Item */}
-                  <div className="skill-item">
-                    <div className="skill-header clearfix">
-                      <div className="skill-title">Joyful</div>
-                      <div className="skill-percentage">
-                        <div className="count-box">
-                          <span className="count-text" data-speed={2000} data-stop={90}>0</span>%
-                        </div>
-                      </div>
-                    </div>
-                    <div className="skill-bar">
-                      <div className="bar-inner"><div className="bar progress-line" data-width={90} /></div>
-                    </div>
-                  </div>
-                  {/* Skill Item */}
-                  <div className="skill-item">
-                    <div className="skill-header clearfix">
-                      <div className="skill-title">Case Study success </div>
-                      <div className="skill-percentage"><div className="count-box"><span className="count-text" data-speed={2000} data-stop={95}>0</span>%</div></div>
-                    </div>
-                    <div className="skill-bar">
-                      <div className="bar-inner"><div className="bar progress-line" data-width={95} /></div>
-                    </div>
-                  </div>
-                  {/* Skill Item */}
-                  <div className="skill-item">
-                    <div className="skill-header clearfix">
-                      <div className="skill-title">Engaging</div>
-                      <div className="skill-percentage"><div className="count-box"><span className="count-text" data-speed={2000} data-stop={75}>0</span>%</div></div>
-                    </div>
-                    <div className="skill-bar">
-                      <div className="bar-inner"><div className="bar progress-line" data-width={75} /></div>
-                    </div>
-                  </div>
+                  <h2>Vision</h2>
+                  <div className="text">We dream of creating a world where you can voice your mental struggle and heal from it with the utmost care. We want to help you understand the know-how of mental well-being and make you educated to listen to others without judging and extending your hand to bring them out from the black hole of misery. </div>
                 </div>
               </div>
             </div>
-            {/* Image Column */}
             <div className="image-column col-lg-5 col-md-12 col-sm-12">
               <div className="inner-column">
                 <div className="circle-one" />

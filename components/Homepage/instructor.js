@@ -36,8 +36,9 @@ const HomeInstructor = () => {
 				</div>
 				<div className="instructor-column col-lg-4 col-md-12 col-sm-12">
 					<div className="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<h4>Become an instructor</h4>
-						<p>Institute of Mental Health promotes positive mental health in riveting ways</p>
+						<h4>Institute of Mental Health promotes positive mental health in riveting ways</h4>
+						<p>Top instructors from around the world teach millions of students  Duis aute irure dolor in reprehenderit in </p>
+						<p>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
 						<a className="click-here" href="membership.html">Click here for apply</a>
 						<div className="image titlt" data-tilt data-tilt-max="4">
 							<img src="/assets/images/resource/instructor.png" alt="" />

@@ -16,7 +16,7 @@ const AboutBanner = () => {
                 <div className="pattern-layer-one" style={{backgroundImage: 'url(/assets/images/main-slider/pattern-1.png)'}} />
                 <div className="icon-layer" style={{backgroundImage: 'url(/assets/images/icons/icon-2.png)'}} />
                 <div className="icon-layer-two" style={{backgroundImage: 'url(/assets/images/icons/icon-5.png)'}} />
-                <h2>Our mission is to provide <br /> a free Online <br /> Courses and Class</h2>
+                <h2>Take the step to build mental health awareness with us and lead a better tomorrow!</h2>
               </div>
             </div>
             {/* Images Column */}

@@ -7,9 +7,7 @@ import SingleCourse from '../components/Single Course/courses'
 export default function Single_Course () {
     return (
         <>
-
         <SingleCourse /> 
-
         </>
     )
 } 

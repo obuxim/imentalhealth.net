@@ -30,6 +30,7 @@ const Layout = ({children}) => {
         <script src="/assets/js/jquery-ui.js"></script>
         <script src="/assets/js/script.js"></script>
         </Head>
+
         <Header />
        {children}
        <Footer />

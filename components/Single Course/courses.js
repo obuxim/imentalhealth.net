@@ -1,5 +1,3 @@
-import SingleCourseAside from "../Aside/Single-course-aside"
-
 const SingleCourse = () => {
     return (
         <>
@@ -9,13 +7,14 @@ const SingleCourse = () => {
         <div className="pattern-layer-three" style={{backgroundImage: 'url(images/icons/icon-4.png)'}} />
         <div className="pattern-layer-four" style={{backgroundImage: 'url(images/icons/icon-8.png)'}} />
         <div className="auto-container">
+          {/* Page Breadcrumb */}
           <ul className="page-breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li>Courses Single</li>
           </ul>
           <div className="content-box">
             <div className="title">5 day left at this price!</div>
-            <h2>The Complete JavaScript Course 2020 <br /> From Zero to Expert!</h2>
+            <h2>Course title Details</h2>
             <ul className="course-info">
               <li><span className="icon fa fa-clock-o" />Last Update : November 23, 2020</li>
               <li><span className="icon fa fa-language" />English</li>
@@ -50,9 +49,9 @@ const SingleCourse = () => {
             <div className="content-column col-lg-8 col-md-12 col-sm-12">
               <div className="inner-column">
                 <h5>Courses Description</h5>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                <p>Course description 100 words</p>
                 <div className="learn-box">
-                  <h5>What you'll learn</h5>
+                  <h5>What you will learn</h5>
                   <ul className="learn-list">
                     <li>JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.</li>
                     <li>Become job-ready by understanding how JavaScript really works behind the scenes</li>
@@ -68,7 +67,7 @@ const SingleCourse = () => {
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
                   <li>JavaScript fundamentals: variables, if/else, operators, boolean logic, functions, arrays, objects, loops, strings, etc.</li>
                 </ul>
-                <h5>Course content</h5>
+                <h5>Requirement</h5>
                 <div className="total-lectures">20 sections • 101 lectures • 30h 48m total length</div>
                 {/* Accordion Box Two */}
                 <ul className="accordion-box-two">
@@ -325,7 +324,40 @@ const SingleCourse = () => {
                 </div>
               </div>
             </div>
-            <SingleCourseAside />
+            {/* Info Column */}
+            <div className="info-column col-lg-4 col-md-12 col-sm-12">
+              <div className="inner-column">
+                <div className="price">$9.99 <i>$129.99</i> <span>92% of</span></div>
+                <h5>This course includes:</h5>
+                <div className="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered </div>
+                <ul className="level-list">
+                  <li>Level :<span>Beginner</span></li>
+                  <li>Topic :<span>Java Script</span></li>
+                  <li>Class :<span>32 articles</span></li>
+                  <li>Access :<span>Mobile and TV</span></li>
+                </ul>
+                <h5>Other includes:</h5>
+                <ul className="level-list-two">
+                  <li>Full lifetime access</li>
+                  <li>19 downloadable resources</li>
+                  <li>Certificate of completion</li>
+                </ul>
+                {/* Coupon Form */}
+                <div className="coupon-form">
+                  <h6>Watch Video <span className="fa fa-caret-right" /></h6>
+                  <form method="post" action="contact.html">
+                    <div className="form-group">
+                      <input type="email" name="email" defaultValue placeholder="Enter Coupon" required />
+                      <button type="submit" className="submit-btn">Enter</button>
+                    </div>
+                  </form>
+                </div>
+                <div className="btns-box">
+                  <a href="#" className="theme-btn enrol-btn">Enrol Now</a>
+                  <a href="#" className="theme-btn wishlist-btn">Add to wishlist</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

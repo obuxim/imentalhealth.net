@@ -5,18 +5,14 @@ const HomeSKill = () => {
         <div className="pattern-layer" style={{backgroundImage: 'url(/assets/images/background/pattern-8.png)'}} />
         <div className="auto-container">
           <div className="row clearfix">
-            {/* Skill Column */}
             <div className="skill-column col-lg-7 col-md-12 col-sm-12">
               <div className="inner-column">
-                {/* Sec Title */}
                 <div className="sec-title">
                   <div className="title">Our Status valu</div>
                   <h2>Explore the hacks of starting a rewarding mental health career</h2>
                   <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</div>
                 </div>
-                {/* Skills */}
                 <div className="skills">
-                  {/* Skill Item */}
                   <div className="skill-item">
                     <div className="skill-header clearfix">
                       <div className="skill-title">Joyful</div>

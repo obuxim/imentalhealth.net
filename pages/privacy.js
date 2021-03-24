@@ -1,11 +1,9 @@
-import Head from 'next/head'
-import PrivacyPage from '../components/Privacy/Privacy'
+import Privacy from "../components/Privacy/Privacy";
 
-
-export default function Privacy() {
+export default function PrivacyPage() {
     return (
         <>
-         <PrivacyPage />
+            <Privacy />
         </>
     )
 }

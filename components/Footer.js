@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Footer = () => {
     return (
         <>
@@ -10,69 +12,72 @@ const Footer = () => {
     	<div className="auto-container">
             <div className="widgets-section">
             	<div className="row clearfix">
-					<div className="footer-column col-lg-5 col-md-12 col-sm-12">
+					<div className="footer-column col-lg-3 col-md-12 col-sm-12">
 						<div className="footer-widget logo-widget">
 							<div className="logo">
 								<a href="index.html"><img src="/assets/images/logo.png" alt="" /></a>
 							</div>
-							<ul className="info-list">
-								<li>Tel:<a href="tel:+0845-371-02-02"> 0845 371 02 02</a></li>
-								<li>Email:<a href="mailto:info@yoursite.co.uk"> info@yoursite.co.uk</a></li>
-							</ul>
+						
 							<ul className="social-box">
 								<li className="twitter"><a target="_blank" href="http://twitter.com/" className="fa fa-twitter"></a></li>
 								<li className="pinterest"><a target="_blank" href="http://pinterest.com/" className="fa fa-pinterest-p"></a></li>
-								<li className="facebook"><a target="_blank" href="http://facebook.com/" className="fa fa-facebook-f"></a></li>
+								<li className="facebook"><a target="_blank" href="https://www.facebook.com/Institute-of-Mental-Health-106322288205875" className="fa fa-facebook-f"></a></li>
 								<li className="dribbble"><a target="_blank" href="http://dribbble.com/" className="fa fa-dribbble"></a></li>
 							</ul>
-							<div className="text">Get started now and take advantage of <br/> our 30 day free trial today.</div>
+
+							
+
 						</div>
 					</div>
+
 					
-					<div className="footer-column col-lg-7 col-md-12 col-sm-12">
+					<div className="footer-column col-lg-9 col-md-12 col-sm-12">
 						<div className="row clearfix">
 							<div className="column col-lg-4 col-md-4 col-sm-12">
 								<h5>About</h5>
 								<ul className="list">
-									<li><a href="#">Home</a></li>
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Success Stories</a></li>
-									<li><a href="#">All Courses</a></li>
-									<li><a href="#">Blog</a></li>
+									<li><Link href="/allcourses"><a>All Courses</a></Link></li>
+									<li><Link href="/about"><a>About us</a></Link></li>
+									<li><Link href="/contact"><a>Contact Us</a></Link></li>
+									<li><Link href="/"><a>Free Quizzes</a></Link></li>
+									<li><Link href="/resourse"><a>Free Resources</a></Link></li>
+									<li><Link href="/blog"><a>Blogs</a></Link></li>
 								</ul>
 							</div>
+							
+
 							<div className="column col-lg-4 col-md-4 col-sm-12">
-								<h5>Resourse</h5>
+								<h5>Useful Links</h5>
 								<ul className="list">
-									<li><a href="#">Terms of use</a></li>
-									<li><a href="#">Contact Us</a></li>
-									<li><a href="#">FAQ</a></li>
-									<li><a href="#">Our Partners</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms & Condition</a></li>
 									<li><a href="#">Redeem Voucher</a></li>
+									<li><a href="#">Certificate Validate</a></li>
 								</ul>
+								<div className="subscribe-form">
+								<h6>Certificate Validate</h6>
+								<form method="post" action="contact.html" _lpchecked={1}>
+								<div className="form-group">
+									<input type="email" name="email" defaultValue placeholder="Your email" required />
+									<button type="submit" className="submit-btn"><span className="icon flaticon-right-arrow-2" /></button>
+								</div>
+								</form>
 							</div>
+							</div>
+
+							<div className="column col-lg-4 col-md-4 col-sm-12 pull-right">
+								<h5>Contact Info</h5>
+									<ul className="info-list">
+										<li style={{fontSize: 16, color: '#00184f'}}>Tel:<a href="tel:+0845-371-02-02"> 020 3880 6874</a></li>
+										<li style={{paddinfTop: 8, color: '#00184f', fontSize: 16}}>Email:<a href="mailto:info@imentalhealth.net"> info@imentalhealth.net</a></li>
+									</ul>
+								</div>
+						
+							
+							
 						</div>
 					</div>
 					
-				</div>
-			</div>
-            <div className="lower-box">
-            	<div className="row clearfix">
-					<div className="col-lg-6 col-lg-6 col-sm-12">
-						<div className="subscribe-form">
-							<h6>Newsletter</h6>
-							<form method="post" action="contact.html">
-								<div className="form-group">
-									<input type="email" name="email" placeholder="Your email" required/>
-									<button type="submit" className="submit-btn"><span className="icon flaticon-right-arrow-2"></span></button>
-								</div>
-							</form>
-						</div>
-					</div>
-					<div className="col-lg-6 col-lg-6 col-sm-12">
-						<div className="text">Need to train your team? We offer flexible, cost-effective <br/> group memberships for your business, school,</div>
-						<a href="#" className="singup">Free Singup</a>
-					</div>
 				</div>
 			</div>
 			

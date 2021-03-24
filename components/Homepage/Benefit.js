@@ -28,7 +28,7 @@ const HomeBenefit = () => {
 					<div className="inner-column">
 						<div className="sec-title">
 							<div className="title">Learn anything</div>
-							<h2>Some of the benefits <br/>you will take from this engaging and interactive platform</h2>
+							<h2>Some of the benefits you will take from this engaging and interactive platform  </h2>
 						</div>
 						<ul className="list-style-one">
 							<li><span className="icon flaticon-double-check"></span><strong>Accessible and Flexible courses </strong>Vendors, suppliers and companies with online access to your technology can be your weakest link</li>

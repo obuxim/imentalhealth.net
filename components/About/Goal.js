@@ -5,7 +5,6 @@ const AboutGoal = () => {
         <div className="pattern-layer-four" style={{backgroundImage: 'url(/assets/images/background/pattern-18.png)'}} />
         <div className="auto-container">
           <div className="row clearfix">
-            {/* Images Column */}
             <div className="images-column col-lg-6 col-md-12 col-sm-12">
               <div className="color-layer" />
               <div className="inner-column">
@@ -19,63 +18,12 @@ const AboutGoal = () => {
                 </div>
               </div>
             </div>
-            {/* Content Column */}
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
               <div className="inner-column">
                 <div className="pattern-layer-three" style={{backgroundImage: 'url(/assets/images/background/pattern-13.png)'}} />
                 <div className="sec-title">
-                  <div className="title">Achieve Goals</div>
-                  <h2>Start To Success</h2>
-                  <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Duis aute irure dolor in</div>
-                </div>
-                {/* Fact Counter */}
-                <div className="fact-counter">
-                  <div className="row clearfix">
-                    {/* Column */}
-                    <div className="column counter-column col-lg-6 col-md-6 col-sm-12">
-                      <div className="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div className="content">
-                          <div className="count-outer count-box">
-                            <span className="count-text" data-speed={3000} data-stop={36}>0</span>+
-                          </div>
-                          <h4 className="counter-title">Over 35 Free Courses</h4>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Column */}
-                    <div className="column counter-column col-lg-6 col-md-6 col-sm-12">
-                      <div className="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <div className="content">
-                          <div className="count-outer count-box alternate">
-                            <span className="count-text" data-speed={5000} data-stop={34}>0</span>
-                          </div>
-                          <h4 className="counter-title">Member State Associations</h4>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Column */}
-                    <div className="column counter-column col-lg-6 col-md-6 col-sm-12">
-                      <div className="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div className="content">
-                          <div className="count-outer count-box">
-                            <span className="count-text" data-speed={2000} data-stop={15}>0</span>k
-                          </div>
-                          <h4 className="counter-title">Over 19,000 High Schools</h4>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Column */}
-                    <div className="column counter-column col-lg-6 col-md-6 col-sm-12">
-                      <div className="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-                        <div className="content">
-                          <div className="count-outer count-box">
-                            <span className="count-text" data-speed={3500} data-stop={20}>0</span>m
-                          </div>
-                          <h4 className="counter-title">Over 11 million Students</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <h2>About Us</h2>
+                  <div className="text">The Institute of Mental Health aims to provide you with the best education on mental health, help you look out for yourself and support others to heal from within. We provide training for you to become a compassionate and caring individual with empathy and excellent interpersonal skills. All the courses are created with professionalism by industry experts to assist you in creating a strong understanding of mental health.</div>
                 </div>
               </div>
             </div>

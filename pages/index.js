@@ -1,3 +1,6 @@
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
 import HomeBanner from '../components/Homepage/Banner'
 import Footer from '../components/Footer'
 import HomeInstructor from '../components/Homepage/instructor'
@@ -13,7 +16,6 @@ import HomeClient from '../components/Homepage/Client'
 export default function Home() {
   return (
     <>
-    
     <HomeBanner />
     <HomeInstructor />
     <HomeBenefit />
@@ -23,8 +25,6 @@ export default function Home() {
     <HomeSkill />
     <HomeTestimonial />
     <HomeBlog />
-    <HomeClient />
-
     </>
   )
 }

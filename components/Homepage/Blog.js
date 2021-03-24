@@ -7,8 +7,7 @@ const HomeBlog = () => {
           {/* Sec Title */}
           <div className="sec-title centered">
             <div className="title">Our Blogs</div>
-            <h2>Stay updated with the latest news and insights </h2>
-            <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br /> fugiat nulla pariatur Duis aute irure dolor in reprehenderit in</div>
+            <h2>Stay updated with the latest news and insights.</h2>
           </div>
           <div className="inner-container">
             <div className="icon-layer-one" style={{backgroundImage: 'url(/assets/images/icons/icon-1.png)'}} />

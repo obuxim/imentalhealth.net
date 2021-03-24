@@ -8,10 +8,8 @@ const HomeCourse = () => {
         <div className="auto-container">
           <div className="sec-title centered">
             <h2>Discover the perfect course for you.</h2>
-            <div className="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <br /> nulla pariatur Duis aute irure dolor in reprehenderit in</div>
           </div>
           <div className="row clearfix">
-            {/* Course Column */}
             <div className="course-block col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <div className="image">

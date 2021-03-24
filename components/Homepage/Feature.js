@@ -10,8 +10,8 @@ const HomeFeature = () => {
 					<div className="inner-column">
 						<div className="sec-title">
 							<div className="title">Explore featured courses</div>
-							<h2>Fundamentals of Digital <br/> Health in Hospitals National <br/> University</h2>
-							<div className="text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod but laboris incididunt ut labore et dolore magna <br/> aliqua.sed do eiusmod but laboris incididunt ut labore et dolore magna aliqua.</div>
+							<h2>Get ahead in your learning journey with oue Free resources</h2>
+							<div className="text"> Free resources of the Institute of Mental Health focuses on assisting learners to explore and understand how to maintain a sound mind and a sound body while mastering some care skills. You will discover fascinating dimensions of mental health as well as get some tips to excel in the health and social care sector. </div>
 						</div>
 						<div className="btn-box">
 							<a href="about.html" className="theme-btn btn-style-two"><span className="txt">Short courses</span></a>

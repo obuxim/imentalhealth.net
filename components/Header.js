@@ -1,10 +1,11 @@
+import Link from 'next/link'
 const Header = () => {
     return (
         <header className="main-header">
            <div className="header-upper">
         	<div className="outer-container clearfix">
 				<div className="pull-left logo-box">
-					<div className="logo"><a href="index.html"><img src="/assets/images/logo.png" alt="" title=""/></a></div>
+					<div className="logo"><Link href="/"><a><img src="/assets/images/logo.png" alt="" title=""/></a></Link></div>
 				</div>
 				<div className="nav-outer clearfix">
 					<div className="mobile-nav-toggler"><span className="icon flaticon-menu"></span></div>
@@ -19,7 +20,7 @@ const Header = () => {
 						
 						<div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul className="navigation clearfix">
-								<li className="dropdown has-mega-menu"><a href="#"><span>Courses <i className="fa fa-arrow-down"></i></span></a>
+								<li className="dropdown has-mega-menu"><a href="#"><span>All Courses <i className="fa fa-arrow-down"></i></span></a>
 									<div className="mega-menu">
 									
 										<div className="upper-box">
@@ -46,29 +47,21 @@ const Header = () => {
 										</div>
 									</div>
 								</li>
-								<li className="current"><a href="#"><span data-hover="Home">Home</span></a>
+								<li className="current dropdown"><Link href="/"><a><span data-hover="Home">Home</span></a></Link>
 								</li>
-								<li className="dropdown"><a href="#">All Courses</a>
+								<li className="dropdown"><Link href="/"><a>Special Deal</a></Link>
 								</li>
-								<li className="dropdown"><a href="#">Special Deal</a>
+								<li className="dropdown"><Link href="/blog"><a>Blog</a></Link>
 								</li>
-								<li className="dropdown"><a href="#">Blog</a>
+								<li className="dropdown"><Link href="/resourse"><a>Free Resources</a></Link>
 								</li>
-								<li><a href="contact.html">Free Resources</a></li>
-								<li><a href="donation.html">Login</a></li>
+								<li><Link href="/contact"><a>Contact</a></Link></li>
+								<li><Link href="/login"><a>Login</a></Link></li>
 							</ul>
 						</div>
 					</nav>
 			
 					<div className="outer-box clearfix">
-						<div className="search-box">
-							<form method="post" action="contact.html">
-								<div className="form-group">
-									<input type="search" name="search-field" placeholder="What do we want learn" required/>
-									<button type="submit"><span className="icon fa fa-search"></span></button>
-								</div>
-							</form>
-						</div>
 						
 						<ul className="social-box">
 							<li className="instagram"><a target="_blank" href="http://instagram.com/" className="fa fa-instagram"></a></li>

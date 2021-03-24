@@ -22,14 +22,9 @@ const AboutProfessional = () => {
               <div className="inner-column">
                 <div className="pattern-layer-three" style={{backgroundImage: 'url(/assets/images/background/pattern-16.png)'}} />
                 <div className="sec-title">
-                  <div className="title">Learn anything</div>
-                  <h2>Take online courses Earn <br /> professional</h2>
+                  <h2>Mission</h2>
                 </div>
-                <div className="bold-text">Position yourself for success with a variety of collegeclasses including general education courses</div>
-                <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div className="btn-box">
-                  <a href="course-detail.html" className="theme-btn btn-style-four"><span className="txt">Short courses</span></a>
-                </div>
+                <p>Our motto is to diminish the stigma of mental illness and prepare you to better the mental health of yourself, your friends, family, colleagues or any individual that seeks help from you. We create all of our courses with expert advice and tested methods that will empower your psychological literacy, allowing you to thrive as a mental health support worker. We want you to join our venture to make mental health as important as physical health!</p>
               </div>
             </div>
           </div>
