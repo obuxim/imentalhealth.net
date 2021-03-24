@@ -1,4 +1,4 @@
-import FreeResourse from "../components/Free Resourse/Resourse";
+import FreeResourse from "../components/FreeResourse/Resourse";
 
 export default function FreeResoursePage () {
     return (
